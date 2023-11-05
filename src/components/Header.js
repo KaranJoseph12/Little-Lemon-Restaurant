@@ -10,7 +10,7 @@ const Header = () => {
         <div>
           <h2>Little Lemon</h2>
           <h3>Chicago</h3>
-          <p>We are a family owned Mediterraneran Restaurant, focused on traditional recipes served with a modern twist</p>
+          <p>We are a family owned <br />Mediterraneran Restaurant,<br /> focused on traditional <br /> recipes served with a modern <br /> twist</p>
           <Link to="/booking"><button aria-label='On Click' className='btn-main'>Reserve Table</button></Link>
         </div>
         {/* image banner */}
