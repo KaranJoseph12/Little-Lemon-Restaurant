@@ -1,5 +1,6 @@
 import React from 'react'
 import delivery from "../images/delivery.jpg"
+import Swal from 'sweetalert2';
 
 const Menu = () => {
   const foodItems = [
@@ -29,6 +30,28 @@ const Menu = () => {
     },
   
   ];
+
+  const handleOrder = (id) => {
+    console.log("id is clicked")
+    Swal.fire({
+      title: 'Are you sure?',
+      text: "You won't be able to revert this!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, Order it!'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          'Ordered!',
+          'Your Order has been Accepted.',
+          'success'
+        )
+      }
+    })
+
+  }
   return (
     <div className='menu-container'> 
       <div className="menu-header">
@@ -47,7 +70,7 @@ const Menu = () => {
                     <p>{foodItems.price}</p>
                   </div>
               <p>{foodItems.description}</p>
-              <button className='orderbtn'>Order a Delivery        <img 
+              <button className='orderbtn' onClick={()=>handleOrder(foodItems.id)}>Order a Delivery        <img 
               src={delivery} alt="orderLogo" /></button>
       
              </div>
