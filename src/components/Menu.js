@@ -1,4 +1,5 @@
 import React from 'react'
+import delivery from "../images/delivery.jpg"
 
 const Menu = () => {
   const foodItems = [
@@ -46,7 +47,9 @@ const Menu = () => {
                     <p>{foodItems.price}</p>
                   </div>
               <p>{foodItems.description}</p>
-              <button className='orderbtn'>Order Now</button>
+              <button className='orderbtn'>Order a Delivery        <img 
+              src={delivery} alt="orderLogo" /></button>
+      
              </div>
           </div>)
         }
