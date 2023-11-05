@@ -8,4 +8,5 @@ Reservation Page
 ![Screenshot 2023-11-05 231455](https://github.com/KaranJoseph12/Little-Lemon-Restaurant/assets/148121439/6b7a1a6d-6e48-4937-8e24-c204ecdc0457)
 
 Confirmed Booking
-![Uploading Screenshot 2023-11-05 231517.png…]()
+
+![Screenshot 2023-11-05 231517](https://github.com/KaranJoseph12/Little-Lemon-Restaurant/assets/148121439/97d2894d-95fa-41bc-a97b-ac9eff78c37f)
