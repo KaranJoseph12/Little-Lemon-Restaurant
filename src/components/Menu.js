@@ -33,7 +33,7 @@ const Menu = () => {
     <div className='menu-container'> 
       <div className="menu-header">
         <h2>This Week's Specials</h2>
-        <button>Order Online</button>
+        <button className='btn-two'>Order Online</button>
       </div>
 
       {/* Menu cards */}

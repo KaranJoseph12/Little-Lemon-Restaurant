@@ -191,11 +191,14 @@ input, label{
   flex-wrap: wrap;
   gap: 2rem 1rem;
 }
+.btn-two{
+  background-color: #F4CE14;
+}
 
 .menu-items{
   /* height: 400px; */
   width: 350px;
-  background: rgb(216, 221, 218);
+  background: rgb(237, 239, 238);
   border-radius: 8px;
 }
 
