@@ -9,11 +9,11 @@ const BookingForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+    props.submitForm(e);
   }
   const handleChange = (e) => {
     setDate(e);
-    
+    props.dispatch(e);
 
   }
   return (
