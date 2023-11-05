@@ -1,7 +1,6 @@
 import Nav from "./components/Nav";
 import "./App.css"
-import Header from "./components/Header";
-import BookingForm from "./components/BookingForm";
+import Main from "./components/Main";
 
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
 return(
   <>
     <Nav/>
-    <Header/>
-    <BookingForm/>
+    <Main/>
   </>
 )
 

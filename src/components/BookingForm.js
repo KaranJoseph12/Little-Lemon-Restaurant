@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-const BookingForm = () => {
+const BookingForm = (props) => {
   const [date, setDate] = useState("");
   const [times, setTimes] = useState("");
   const [guest, setGuest] = useState("");
