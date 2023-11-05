@@ -228,3 +228,32 @@ input, label{
   height: 30px;
   width: 30px;
 }
+footer section{
+  padding: 10px 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.company-info img{
+  margin-top: 12px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.company-info p{
+  width: 320px;
+}
+
+footer h3{
+  font-size: 18px;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer ul li{
+  padding: 8px 0;
+}
+
